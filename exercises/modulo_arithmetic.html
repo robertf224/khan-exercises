@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html data-require="math word-problems">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Modulo arithmetic</title>
+    <script src="../khan-exercise.js"></script>
+</head>
+<body>
+    <div class="exercise">
+        <div class="vars">
+            <var id="num">randRange( 0, 101 )</var>
+            <var id="divisor">randRange( 0, 11 )</var>
+            <var id="remainder">num % divisor</var>
+        </div>
+
+        <div class="problems">
+            <div>
+                <div class="question">
+                    <p>What is <code><var>num</var></code> % <code><var>divisor</var></code>?</p>
+                    <p>(What is the remainder of <code><var>num</var></code> / <code><var>divisor</var></code>?)</p>
+                </div>
+
+                <p class="solution" data-forms="integer"><var>remainder</var></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
